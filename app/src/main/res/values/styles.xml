@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:tabWidgetStyle">@android:style/Widget.TabWidget</item>
+        <item name="android:textColorLink">@color/blue_5</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="backgroundColorHighlight">@color/red_5</item>
+        <item name="backgroundColorHighlightPressed">@color/red_6</item>
+        <item name="backgroundColorPrimary">@color/white</item>
+        <item name="backgroundColorSecondary">@color/white</item>
+        <item name="directGradientEnd">@color/direct_blue_gradient_dark</item>
+        <item name="directGradientStart">@color/direct_blue_gradient_light</item>
+        <item name="directInboxFooterButtonType">camera</item>
+        <item name="directInboxInlineCameraTintColor">@color/grey_9</item>
+        <item name="directPaletteColor0">@color/blue_0</item>
+        <item name="directPaletteColor1">@color/blue_1</item>
+        <item name="directPaletteColor2">@color/blue_2</item>
+        <item name="directPaletteColor3">@color/blue_3</item>
+        <item name="directPaletteColor4">@color/blue_4</item>
+        <item name="directPaletteColor5">@color/blue_5</item>
+        <item name="directPaletteColor6">@color/blue_6</item>
+        <item name="directPaletteColor7">@color/blue_7</item>
+        <item name="directPaletteColor8">@color/blue_8</item>
+        <item name="directPaletteColor9">@color/blue_9</item>
+        <item name="directPresenceLargeBubbleColor">@color/blue_5_10_transparent</item>
+        <item name="directPresenceSmallBubbleColor">@color/blue_5_20_transparent</item>
+        <item name="directRingGradientColor1">@color/direct_blue_ring_gradient_colour1</item>
+        <item name="directRingGradientColor2">@color/direct_blue_ring_gradient_colour2</item>
+        <item name="directRingGradientColor3">@color/direct_blue_ring_gradient_colour3</item>
+        <item name="directRingGradientColor4">@color/direct_blue_ring_gradient_colour4</item>
+        <item name="directRingGradientColor5">@color/direct_blue_ring_gradient_colour5</item>
+        <item name="glyphColorPrimary">@color/grey_9</item>
+        <item name="glyphColorSecondary">@color/grey_5</item>
+        <item name="glyphColorSecondaryActive">@color/grey_9</item>
+        <item name="quickCaptureControllerAllowCameraTooltip">true</item>
+        <item name="quickCaptureControllerDirectReplyHeaderBackground">@null</item>
+        <item name="quickCaptureControllerDirectReplyHeaderMinHeight">40.0dip</item>
+        <item name="quickCaptureControllerFaceFilterButtonProgressIndicatorMargin">10.0dip</item>
+        <item name="quickCaptureControllerFaceFilterButtonProgressIndicatorSize">28.0dip</item>
+        <item name="quickCaptureControllerGalleryButtonSize">@dimen/quick_capture_gallery_preview_button_size</item>
+        <item name="quickCaptureControllerShadowHeight">70.0dip</item>
+        <item name="quickCaptureControllerShutterButtonSize">80.0dip</item>
+        <item name="quickCaptureControllerTextModeDefaultBackgroundColor">?directPaletteColor5</item>
+        <item name="quickCaptureFormatPickerLabelHorizontalMargin">8.0dip</item>
+        <item name="segmentedUnderlineWidth">@dimen/segmented_underline_width_whiteout</item>
+        <item name="textColorBoldLink">@color/grey_9</item>
+        <item name="textColorHyperlink">@color/blue_8</item>
+        <item name="textColorPrimary">@color/grey_9</item>
+        <item name="textColorRegularLink">@color/blue_8</item>
+        <item name="textColorSecondary">@color/grey_5</item>
+        <item name="textColorSelected">@color/grey_9</item>
+        <item name="textColorTertiary">@color/grey_3</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+        <item name="background">@android:color/white</item>
+        <item name="titleTextStyle">@style/MyActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyActionBar.TitleTextStyle"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LoginButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/loginbuttonshape</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SignUpButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/signupbuttonshape</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>
